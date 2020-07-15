@@ -1,0 +1,342 @@
+body {
+
+  color: white;
+  margin-top: 5px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7KkwGy-QHix7xbTfiS3F-OVkRkCgQQR6MPQ&usqp=CAU);
+}
+
+.header-section {
+
+  display: flex;
+}
+
+.header-section > div {
+
+  width: 33.33333%;
+}
+
+.social-networks li {
+
+  display: inline;
+}
+
+.social-networks i {
+
+  font-size: 160%;  
+  margin: 1%;
+  padding: 5%;
+  color: white;
+}
+
+.center {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#links {
+
+  width: 100%;
+  color: white;
+  font-size: 150%;
+  letter-spacing: 5px;
+}
+#menu {
+
+  text-align: center;
+}
+
+#menu li {
+
+  display: inline;
+  margin: 0 auto;
+}
+
+#menu a {
+
+  text-decoration: none;
+  color: inherit;
+}
+
+#video {
+
+  padding-top: 35px;
+  text-align: center;
+  display: block;
+  margin: 1 auto;
+}
+
+#album-cover {
+
+  text-align: center;
+  height: 800px;
+  width: 100%;
+  background: url(https://www.sabaton.net/wp-content/uploads/2019/07/sabaton-the-great-war-out-now-750x430.jpg) no-repeat center center;
+
+  animation-name: album-zoom;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+}
+
+#album {
+
+  height: 900px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes album-zoom {
+
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05)
+  }
+  to {
+    transform: scale(1);
+  }
+}
+#song-list-1 {
+
+  font-size: 150%;
+  letter-spacing: 2px;
+
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-left: 10px;
+
+  top:120px;
+  left: 20px;
+
+  position: absolute;
+}
+
+#song-list-2 {
+
+  font-size: 150%;
+  letter-spacing: 2px;
+
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-right: 1px;
+
+  top: 120px;
+  right: 1px;
+
+  position: absolute;
+}
+
+.btn {
+
+  color: white;
+  
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  padding: 25px 80px;
+  background-color:rgb(110, 110, 108);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+
+  background-color: rgba(102, 102, 102, 0.801);
+  color: white;
+}
+
+#concerts {
+
+  background-image: url(https://www.sabaton.net/wp-content/uploads/2019/06/about-band-sabaton-header-1920x680.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+#concerts div {
+
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 19%;
+  height: 300px;
+  float: left;
+  padding-top: 30px 0 0 10px;
+  text-align: center;
+  margin: 6px;
+}
+
+.social-networks-footer li {
+
+  display: inline;
+}
+
+.social-networks-footer i {
+
+  font-size: 120%;  
+  margin: 1%;
+  padding: 4%;
+  color: white;
+}
+
+#photo {
+
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+}
+
+#photo img {
+
+  width: 100%;
+}
+
+#contact {
+
+  height: 700px;
+}
+
+#left-about {
+
+  padding-top: 30px;
+  width: 45%;
+  float: left;
+}
+
+#right-about {
+
+  padding-top: 30px;
+  width: 45%;
+  float: right;
+}
+
+  hr {
+
+  border-top: 1px solid #777777;
+  width: 100%;
+  margin:5px 0;
+}
+
+.left-about-heading {
+
+  width: 50%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.right-about-heading {
+
+  width: 50%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+
+  text-align: right;
+}
+.right-about-heading p {
+  text-align: right;
+}
+
+#main-header {
+
+  margin: 20px 0;
+  text-align: center;
+  font-size: 280%;
+}
+
+@media screen and (max-width:943px){
+  #menu{
+
+    clear:inherit;
+    float:inherit;
+    line-height: 25px;
+  }
+
+
+  #album > div{
+
+    width: 100%;
+
+  }
+  #album > ol {
+
+    display: none;
+  }
+
+    #concerts div {
+    width: 100%;
+    clear: both;
+    height: 180px;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #fff;
+    padding: 0;
+  }
+
+  #photo{
+
+    column-count: 3;
+  }
+  #social-networks-footer li {
+
+    padding: 0;
+    display: block;
+  }
+  #social-networks li {
+
+    padding: 0;
+    display: block;
+  }
+  #contact {
+
+    width: inherit;
+    height: 1200px;
+    margin: 0 auto;
+  }
+  .left-about-heading, .right-about-heading {
+
+    width: inherit;
+  }
+
+  .left-about-heading h2, .right-about-heading h2 {
+
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-about-heading p, .right-about-heading p {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:800px){
+
+  #photo
+  {
+    column-count: 2;
+  }
+}
