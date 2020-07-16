@@ -5,16 +5,6 @@ body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7KkwGy-QHix7xbTfiS3F-OVkRkCgQQR6MPQ&usqp=CAU);
 }
 
-.header-section {
-
-  display: flex;
-}
-
-.header-section > div {
-
-  width: 33.33333%;
-}
-
 .social-networks li {
 
   display: inline;
