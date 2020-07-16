@@ -26,25 +26,26 @@ body {
   width: 100%;
 }
 
-#links {
+#menu {
 
   width: 100%;
   color: white;
   font-size: 150%;
   letter-spacing: 5px;
 }
-#menu {
+#menu-items {
 
-  text-align: center;
+  text-align: center !important;
+  margin-right: 25px;
 }
 
-#menu li {
+#menu-items li {
 
   display: inline;
   margin: 0 auto;
 }
 
-#menu a {
+#menu-items a {
 
   text-decoration: none;
   color: inherit;
@@ -152,12 +153,11 @@ body {
 #concerts {
 
   background-image: url(https://www.sabaton.net/wp-content/uploads/2019/06/about-band-sabaton-header-1920x680.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  width: 100%;
-  overflow: hidden;
-
+  
 }
 
 #concerts div {
@@ -258,13 +258,6 @@ body {
 }
 
 @media screen and (max-width:943px){
-  #menu{
-
-    clear:inherit;
-    float:inherit;
-    line-height: 25px;
-  }
-
 
   #album > div{
 
