@@ -53,10 +53,11 @@ body {
 
 #video {
 
-  padding-top: 35px;
-  text-align: center;
-  display: block;
-  margin: 1 auto;
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
 }
 
 #album-cover {
@@ -125,7 +126,7 @@ body {
   position: absolute;
 }
 
-.btn {
+.buton {
 
   color: white;
   
@@ -144,7 +145,7 @@ body {
   font-size: 18px;
 }
 
-.btn:hover {
+.buton:hover {
 
   background-color: rgba(102, 102, 102, 0.801);
   color: white;
@@ -152,15 +153,16 @@ body {
 
 #concerts {
 
-  background-image: url(https://www.sabaton.net/wp-content/uploads/2019/06/about-band-sabaton-header-1920x680.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  
+    background-image: url('https://www.sabaton.net/wp-content/uploads/2019/05/Sabaton-Official-Website-2.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+  
+
 
 #concerts div {
+    
 
   color: #fafafa;
   background-color: rgba(0, 0, 0, 0.6);
