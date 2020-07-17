@@ -344,6 +344,10 @@ body {
 
     column-count: 3;
   }
+  #photo > img {
+
+      padding: 2%;
+  }
 
   #contact {
 
