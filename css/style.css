@@ -1,377 +1,344 @@
 body {
 
-  color: white;
-  margin-top: 5px;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7KkwGy-QHix7xbTfiS3F-OVkRkCgQQR6MPQ&usqp=CAU);
-}
-
-.social-networks li {
-
-  display: inline;
-}
-
-.social-networks i {
-
-  font-size: 160%;  
-  margin: 1%;
-  padding: 5%;
-  color: white;
-}
-
-.center {
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+     color: white;
+     margin-top: 5px;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7KkwGy-QHix7xbTfiS3F-OVkRkCgQQR6MPQ&usqp=CAU);
 }
 
 #menu {
 
-  width: 100%;
-  color: white;
-  font-size: 150%;
-  letter-spacing: 5px;
+     width: 100%;
+     color: white;
+     font-size: 150%;
+     letter-spacing: 5px;
 }
+
 #menu-items {
 
-  text-align: center !important;
-  margin-right: 25px;
+     text-align: center !important;
+     margin-right: 25px;
 }
 
 #menu-items li {
 
-  display: inline;
-  margin: 0 auto;
+     display: inline;
+     margin: 0 auto;
 }
 
 #menu-items a {
 
-  text-decoration: none;
-  color: inherit;
+     text-decoration: none;
+     color: inherit;
 }
 
 #video1 {
 
-    position: relative;
-    width: 100%;
-    padding: 100px 3% 40px;
-    
+     position: relative;
+     width: 100%;
+     padding: 100px 3% 40px;    
 }
+
 #video2 {
 
-    position: relative;
-    width: 100%;
-    padding: 10px 3% 40px;
+     position: relative;
+     width: 100%;
+     padding: 10px 3% 40px;
 }
+
 .embed-container { 
 
-    position: relative; 
-    padding-bottom: 56.25%; 
-    height: 0; 
-    overflow: hidden; 
-    max-width: 100%; }
+     position: relative; 
+     padding-bottom: 56.25%; 
+     height: 0; 
+     overflow: hidden; 
+     max-width: 100%; }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; }
+     position: absolute; 
+     top: 0; 
+     left: 0; 
+     width: 100%; 
+     height: 100%; }
 
 
 #album-cover {
 
-  text-align: center;
-  height: 800px;
-  width: 100%;
-  background: url(https://www.sabaton.net/wp-content/uploads/2019/07/sabaton-the-great-war-out-now-750x430.jpg ) no-repeat center center;
+     text-align: center;
+     height: 800px;
+     width: 100%;
+     background: url(https://www.sabaton.net/wp-content/uploads/2019/07/sabaton-the-great-war-out-now-750x430.jpg ) no-repeat center center;
 
-  animation-name: album-zoom;
-  animation-duration: 10s;
-  animation-fill-mode: both;
+     animation-name: album-zoom;
+     animation-duration: 10s;
+     animation-fill-mode: both;
 }
 
 #album {
 
-  height: 900px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+     height: 900px;
+     width: 100%;
+     overflow: hidden;
+     position: relative;
 }
 
 @keyframes album-zoom {
 
-  from {
-    transform: scale(1);
+    from {
+         transform: scale(1);
   }
-  50% {
-    transform: scale(1.05)
+    50% {
+         transform: scale(1.05)
   }
-  to {
-    transform: scale(1);
+    to {
+         transform: scale(1);
   }
 }
+
 #song-list-1 {
 
-    color: white;
-
-  font-size: 150%;
-  letter-spacing: 2px;
-
-  width: 300px;
-  height: 200px;
-
-  padding-top: 40px;
-  padding-left: 10px;
-
-  top:120px;
-  left: 20px;
-
-  position: absolute;
+     color: white;
+     font-size: 150%;
+     letter-spacing: 2px;
+     width: 300px;
+     height: 200px;
+     padding-top: 40px;
+     padding-left: 10px;
+     top:120px;
+     left: 20px;
+     position: absolute;
 }
 
 #song-list-2 {
-    color: white;
 
-  font-size: 150%;
-  letter-spacing: 2px;
-
-  width: 300px;
-  height: 200px;
-
-  padding-top: 40px;
-  padding-right: 1px;
-
-  top: 120px;
-  right: 1px;
-
-  position: absolute;
+     color: white;
+     font-size: 150%;
+     letter-spacing: 2px;
+     width: 300px;
+     height: 200px;
+     padding-top: 40px;
+     padding-right: 1px;
+     top: 120px;
+     right: 1px;
+     position: absolute;
 }
 
 .buton {
 
-  color: white;
-  
-  margin: 0;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border: none;
-  outline: none;
-  padding: 25px 80px;
-  background-color:rgb(110, 110, 108);
-  cursor: pointer;
-  font-size: 18px;
+     color: white;
+     margin: 0;
+     position: absolute;
+     top: 80%;
+     left: 50%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     border: none;
+     outline: none;
+     padding: 25px 80px;
+     background-color:rgb(110, 110, 108);
+     cursor: pointer;
+     font-size: 18px;
 }
 
 .buton:hover {
 
-  background-color: rgba(102, 102, 102, 0.801);
-  color: white;
+     background-color: rgba(102, 102, 102, 0.801);
+     color: white;
 }
 
 #concerts > h2 {
 
-    color: white;
-    text-align: center;
-    padding-bottom: 3%;
+     color: white;
+     text-align: center;
+     padding-bottom: 3%;
 }
 
 #concerts div {
     
-
-  color: #fafafa;
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 19%;
-  height: 300px;
-  float: left;
-  padding-top: 30px 0 0 10px;
-  text-align: center;
-  margin: 6px;
+     color: #fafafa;
+     background-color: rgba(0, 0, 0, 0.6);
+     width: 19%;
+     height: 300px;
+     float: left;
+     padding-top: 30px;
+     text-align: center;
+     margin: 6px;
 }
 
 .social-networks-footer {
-    display: block;  
-    padding: 1%;      
-    margin: 0;       
-    width: 100%;     
+
+     display: block;  
+     padding: 1%;      
+     margin: 0;       
+     width: 100%;     
 }
 
 .social-networks-footer li {
 
-    display: inline;
-    text-align: center;
+     display: inline;
+     text-align: center;
 }
 
 .social-networks-footer i {
 
-  font-size: 120%;  
-  margin: 1%;
-  padding: 4%;
-  color: white;
+     font-size: 120%;  
+     margin: 1%;
+     padding: 4%;
+     color: white;
 }
 
 #photo {
 
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0px;
+     clear: both;
+     line-height: 0;
+     column-count: 4;
+     column-gap: 0px;
 }
 
 #photo > img {
 
-    padding: 2%;
-
-    width: 100%;
+     padding: 2%;
+     width: 100%;
 }
   
-
-      
-
 #contact {
 
-    color: white;
-
-  height: 700px;
+     color: white;
+     height: 700px;
 }
 
 #left-about {
     
-
-  padding-top: 30px;
-  width: 45%;
-  float: left;
+     padding-top: 30px;
+     width: 45%;
+     float: left;
 }
 
 #right-about {
     
-
-  padding-top: 30px;
-  width: 45%;
-  float: right;
+     padding-top: 30px;
+     width: 45%;
+     float: right;
 }
 
   hr {
 
-  border-top: 1px solid #777777;
-  width: 100%;
-  margin:5px 0;
+     border-top: 1px solid #777777;
+     width: 100%;
+     margin:5px 0;
 }
 
 .left-about-content {
 
-  width: 50%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
+     width: 50%;
+     float: right;
+     line-height: 20px;
+     clear: both;
+     margin-bottom: 50px;
 }
 
 .right-about-content {
 
-  width: 50%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
+     width: 50%;
+     float: left;
+     line-height: 20px;
+     clear: both;
+     margin-bottom: 50px;
 }
 
 .right-about-content h2 {
 
-  text-align: right;
+     text-align: right;
 }
 .right-about-content p {
-  text-align: right;
+
+     text-align: right;
 }
 
-#main-header {
+#main-contact-header {
 
-  margin: 20px 0;
-  text-align: center;
-  font-size: 280%;
+     margin: 20px 0;
+     text-align: center;
+     font-size: 280%;
 }
 @media (max-width:1280px) {
 
     #album-cover {
 
-        background-size: 45% 45%;
-
-        padding: 15%;
+         background-size: 45% 45%;
+         padding: 15%;
     }
 }
-@media (max-width:960px){
+
+@media (max-width:960px) {
 
     .social-networks-footer li {
 
-        display: inline;
-        padding: 0;
+         display: inline;
+         padding: 0;
      }
 
     .social-networks-footer i {
 
-        font-size: 80%;
+         font-size: 80%;
     }
 
-    #album > div{
+    #album > div {
 
-    width: 100%;
-
+         width: 100%;
   }
+
     #album > ol {
 
-    display: none;
+         display: none;
   }
    #album-cover {
        
-       background-size: 90% 60%;
+         background-size: 90% 60%;
    }
 
     #concerts div {
-    width: 100%;
-    clear: both;
-    height: 180px;
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #fff;
-    padding: 0;
+
+         width: 100%;
+         clear: both;
+         height: 180px;
+         border-style: solid;
+         border-bottom-width: 1px;
+         border-bottom-color: #fff;
+         padding: 0;
   }
 
-  #photo{
+    #photo {
 
-    column-count: 3;
+         column-count: 3;
   }
   
 
-  #contact {
+    #contact {
 
-    width: inherit;
-    height: 1200px;
-    margin: 0 auto;
+         width: inherit;
+         height: 1200px;
+         margin: 0 auto;
   }
-  .left-about-content, .right-about-content {
+    .left-about-content, .right-about-content {
 
-    width: inherit;
-  }
-
-  .left-about-content h2, .right-about-content h2 {
-
-    width: 100%;
-    text-align: center;
+         width: inherit;
   }
 
-  .left-about-content p, .right-about-content p {
-    text-align: center;
-    margin: 0 auto;
+    .left-about-content h2, .right-about-content h2 {
+
+         width: 100%;
+         text-align: center;
+  }
+
+    .left-about-content p, .right-about-content p {
+
+         text-align: center;
+         margin: 0 auto;
   }
     #contact {
 
-        height: 800px;
+         height: 800px;
     }
 }
 
@@ -379,50 +346,46 @@ body {
 
     #album-cover {
 
-        background-repeat: no-repeat;
-        background-size: 90% 50%;
-
-        max-width: 100%;
-
-
+         background-repeat: no-repeat;
+         background-size: 90% 50%;
+         max-width: 100%;
     }
 
     .social-networks-footer li {
-
         
-        padding: 0;
-        margin: 0;
+         padding: 0;
+         margin: 0;
     }
 
     .social-networks-footer i {
         
-        margin-top: 5px;
-        padding: 3%;
-        font-size: 65%;
+         margin-top: 5px;
+         padding: 3%;
+         font-size: 65%;
     }
 
-    #photo
-  {
-        column-count: 2;
+    #photo {
+
+         column-count: 2;
   }
 
     .left-about-content {
 
-        height: inherit;
-        width: 100%;
-        text-align: left;
-        float: left;
-
+         height: inherit;
+         width: 100%;
+         text-align: left;
+         float: left;
     }
    
      .right-about-content {
+
          height: inherit;
          width: 100%;
-        text-align: right;
-        float: right;
+         text-align: right;
+         float: right;
     }
     #contact {
 
-        height: 800px;
+         height: 800px;
     }
 }
