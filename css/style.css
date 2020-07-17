@@ -65,18 +65,20 @@ body {
     padding: 10px 3% 40px;
 }
 .embed-container { 
+
     position: relative; 
     padding-bottom: 56.25%; 
     height: 0; 
     overflow: hidden; 
     max-width: 100%; }
 
-.embed-container iframe, .embed-container object, .embed-container embed { 
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        width: 100%; 
-        height: 100%; }
+.embed-container iframe, .embed-container object, .embed-container embed {
+
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; }
 
 
 #album-cover {
@@ -84,7 +86,7 @@ body {
   text-align: center;
   height: 800px;
   width: 100%;
-  background: url(https://www.sabaton.net/wp-content/uploads/2019/07/sabaton-the-great-war-out-now-750x430.jpg) no-repeat center center;
+  background: url(https://www.sabaton.net/wp-content/uploads/2019/07/sabaton-the-great-war-out-now-750x430.jpg ) no-repeat center center;
 
   animation-name: album-zoom;
   animation-duration: 10s;
@@ -113,6 +115,8 @@ body {
 }
 #song-list-1 {
 
+    color: white;
+
   font-size: 150%;
   letter-spacing: 2px;
 
@@ -129,6 +133,7 @@ body {
 }
 
 #song-list-2 {
+    color: white;
 
   font-size: 150%;
   letter-spacing: 2px;
@@ -229,10 +234,13 @@ body {
 
 #contact {
 
+    color: white;
+
   height: 700px;
 }
 
 #left-about {
+    
 
   padding-top: 30px;
   width: 45%;
@@ -240,6 +248,7 @@ body {
 }
 
 #right-about {
+    
 
   padding-top: 30px;
   width: 45%;
@@ -285,7 +294,15 @@ body {
   text-align: center;
   font-size: 280%;
 }
+@media (max-width:1280px) {
 
+    #album-cover {
+
+        background-size: 45% 45%;
+
+        padding: 15%;
+    }
+}
 @media (max-width:960px){
 
     .social-networks-footer li {
@@ -299,15 +316,19 @@ body {
         font-size: 80%;
     }
 
-  #album > div{
+    #album > div{
 
     width: 100%;
 
   }
-  #album > ol {
+    #album > ol {
 
     display: none;
   }
+   #album-cover {
+       
+       background-size: 90% 60%;
+   }
 
     #concerts div {
     width: 100%;
@@ -348,6 +369,16 @@ body {
 }
 
 @media (max-width:500px){
+
+    #album-cover {
+
+        background-repeat: no-repeat;
+        background-size: 90% 50%;
+
+        max-width: 100%;
+
+
+    }
 
     .social-networks-footer li {
 
