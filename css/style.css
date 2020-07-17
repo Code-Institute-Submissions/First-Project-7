@@ -175,15 +175,12 @@ body {
   color: white;
 }
 
-#concerts {
+#concerts > h2 {
 
-    background-image: url('https://www.sabaton.net/wp-content/uploads/2019/05/Sabaton-Official-Website-2.jpg'); 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 3%;
 }
-  
-
 
 #concerts div {
     
@@ -227,10 +224,15 @@ body {
   column-gap: 0px;
 }
 
-#photo img {
+#photo > img {
 
-  width: 100%;
+    padding: 2%;
+
+    width: 100%;
 }
+  
+
+      
 
 #contact {
 
@@ -344,10 +346,7 @@ body {
 
     column-count: 3;
   }
-  #photo > img {
-
-      padding: 2%;
-  }
+  
 
   #contact {
 
