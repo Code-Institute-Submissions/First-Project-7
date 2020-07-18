@@ -1,7 +1,7 @@
 body {
-  color: white;
+  color: black;
   margin-top: 5px;
-  background: url(data:image/jpeg;base64,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) no-repeat center top / cover;
+  background-color: #f8f8f8;
 }
 
 .album-section {
@@ -50,7 +50,7 @@ body {
   float: right;
 }
 .album-content h3 {
-  color: white;
+  color: rgb(3, 3, 3);
   font-family: "Poppins", sans-serif;
   padding-bottom: 10px;
 }
@@ -59,7 +59,7 @@ body {
   margin-bottom: 0px;
   line-height: 28px;
   letter-spacing: 0.5px;
-  color: white;
+  color: rgb(56, 52, 52);
   font-family: "Poppins", sans-serif;
 }
 .main-btn {
@@ -136,154 +136,6 @@ ul {
   margin: 20px 0 0;
 }
 
-#menu {
-  width: 100%;
-  color: white;
-  font-size: 150%;
-  letter-spacing: 5px;
-}
-
-#menu-items {
-  text-align: center !important;
-  margin-right: 25px;
-}
-
-#menu-items li {
-  display: inline;
-  margin: 0 auto;
-}
-
-#menu-items a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#video1 {
-  position: relative;
-  width: 100%;
-  padding: 100px 3% 40px;
-}
-
-#video2 {
-  position: relative;
-  width: 100%;
-  padding: 10px 3% 40px;
-}
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#album-cover {
-  animation-name: album-zoom;
-  animation-duration: 10s;
-  animation-fill-mode: both;
-}
-
-#album {
-  height: 900px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-@keyframes album-zoom {
-  from {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
-#song-list-1 {
-  color: white;
-  font-size: 150%;
-  letter-spacing: 2px;
-  width: 300px;
-  height: 200px;
-  padding-top: 40px;
-  padding-left: 10px;
-  top: 120px;
-  left: 20px;
-  position: absolute;
-}
-
-#song-list-2 {
-  color: white;
-  font-size: 150%;
-  letter-spacing: 2px;
-  width: 300px;
-  height: 200px;
-  padding-top: 40px;
-  padding-right: 1px;
-  top: 120px;
-  right: 1px;
-  position: absolute;
-}
-
-.buton {
-  color: white;
-  margin: 0;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border: none;
-  outline: none;
-  padding: 25px 80px;
-  background-color: rgb(110, 110, 108);
-  cursor: pointer;
-  font-size: 18px;
-}
-
-.buton:hover {
-  background-color: rgba(102, 102, 102, 0.801);
-  color: white;
-}
-
-#concerts > h2 {
-  color: white;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-#concerts div {
-  color: #fafafa;
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 19%;
-  height: 300px;
-  float: left;
-  padding-top: 30px;
-  text-align: center;
-  margin: 6px;
-}
-
-.social-networks-footer {
-  display: block;
-  padding: 1%;
-  margin: 0;
-  width: 100%;
-}
-
 .social-networks-footer li {
   display: inline;
   text-align: center;
@@ -293,7 +145,7 @@ ul {
   font-size: 120%;
   margin: 1%;
   padding: 4%;
-  color: white;
+  color: black;
 }
 
 #photo {
@@ -308,62 +160,42 @@ ul {
   width: 100%;
 }
 
-#contact {
-  color: white;
-  height: 700px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-#left-about {
-  padding-top: 30px;
-  width: 45%;
-  float: left;
-}
-
-#right-about {
-  padding-top: 30px;
-  width: 45%;
-  float: right;
-}
-
-hr {
-  border-top: 1px solid #777777;
-  width: 100%;
-  margin: 5px 0;
-}
-
-.left-about-content {
-  width: 50%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.right-about-content {
-  width: 50%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
-
-.right-about-content h2 {
-  text-align: right;
-}
-.right-about-content p {
-  text-align: right;
-}
-
-#main-contact-header {
-  margin: 20px 0;
+.section {
+  position: relative;
+  width: 900px;
+  max-width: 80%;
+  border: 2px solid #333;
+  border-top: none;
   text-align: center;
-  font-size: 280%;
+  margin: 60px auto;
 }
-@media (max-width: 1280px) {
-  #album-cover {
-    background-size: 45% 45%;
-    padding: 15%;
-  }
+
+.section h1 {
+  position: relative;
+  margin-top: -14px;
+  display: inline-block;
+  letter-spacing: 4px;
+}
+
+.top-border {
+  position: absolute;
+  height: 2px;
+  width: 24%;
+  background-color: #333;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
 }
 
 @media (max-width: 960px) {
@@ -376,64 +208,24 @@ hr {
     font-size: 80%;
   }
 
-  #album > div {
-    width: 100%;
-  }
-
-  #album > ol {
-    display: none;
-  }
-  #album-cover {
-    background-size: 90% 60%;
-  }
-
-  #concerts div {
-    width: 100%;
-    clear: both;
-    height: 180px;
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #fff;
-    padding: 0;
-  }
-
   #photo {
     column-count: 3;
   }
+}
 
-  #contact {
-    width: inherit;
-    height: 1200px;
-    margin: 0 auto;
-  }
-  .left-about-content,
-  .right-about-content {
-    width: inherit;
-  }
-
-  .left-about-content h2,
-  .right-about-content h2 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .left-about-content p,
-  .right-about-content p {
-    text-align: center;
-    margin: 0 auto;
-  }
-  #contact {
-    height: 800px;
+@media (max-width: 685px) {
+  .top-border {
+    width: 18%;
   }
 }
 
-@media (max-width: 500px) {
-  #album-cover {
-    background-repeat: no-repeat;
-    background-size: 90% 50%;
-    max-width: 100%;
-  }
+.section p {
+  width: 61%;
+  margin: 20px auto 40px auto;
+  line-height: 30px;
+}
 
+@media (max-width: 500px) {
   .social-networks-footer li {
     padding: 0;
     margin: 0;
@@ -448,21 +240,13 @@ hr {
   #photo {
     column-count: 2;
   }
-
-  .left-about-content {
-    height: inherit;
-    width: 100%;
-    text-align: left;
-    float: left;
+  .top-border {
+    display: none;
   }
-
-  .right-about-content {
-    height: inherit;
-    width: 100%;
-    text-align: right;
-    float: right;
+  .section {
+    border-top: 2px solid #333;
   }
-  #contact {
-    height: 800px;
+  .section h1 {
+    margin: 20px 6px;
   }
 }
