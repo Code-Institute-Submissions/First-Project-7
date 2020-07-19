@@ -114,7 +114,7 @@ To continue with cloning, you would;
    1. HTML & CSS code directly from:  Bootstrap 3.3.0 Snippet by evarevirus;  https://bootsnipp.com/snippets/ZV7pD.
       Used on my Contact page.
 
-   2. HTML & CSS code partly from: "Our Team section using bootstrap 4" Bootstrap 4.1.1 Snippet by webcoderskull.
+   2. HTML & CSS code partly from: "Our Team section using bootstrap 4" Bootstrap 4.1.1 Snippet by webcoderskull https://bootsnipp.com/snippets/nNoMz.
       Part of both CSS and HTML are used in creating and styling my concert part in index.
 
    3. The love runnig website from codeinstitute for my idea on how to create and style the concert list as well as 
