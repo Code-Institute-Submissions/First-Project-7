@@ -111,13 +111,16 @@ To continue with cloning, you would;
 
 ### Content
 
-   1. HTML & CSS Timeline code directly from;  Bootstrap 3.3.0 Snippet by evarevirus;  https://bootsnipp.com/snippets/ZV7pD.
+   1. HTML & CSS code directly from:  Bootstrap 3.3.0 Snippet by evarevirus;  https://bootsnipp.com/snippets/ZV7pD.
       Used on my Contact page.
 
-   2. The love runnig website from codeinstitute for my idea on how to create and style the concert list as well as 
+   2. HTML & CSS code partly from: "Our Team section using bootstrap 4" Bootstrap 4.1.1 Snippet by webcoderskull.
+      Part of both CSS and HTML are used in creating and styling my concert part in index.
+
+   3. The love runnig website from codeinstitute for my idea on how to create and style the concert list as well as 
    my Gallery page.
 
-   3. HTML & CSS Timeline code directly from; Sorry I lost the link. 
+   4. HTML & CSS code directly from: Sorry I lost the link. 
       Used on my album section in Home page.
 
 ### Media
